@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import MainPage from './MainPage.js';
+import Button from 'react-bootstrap/Button';
+import LandingPage from './LandingPage.js';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Use this router!!!
+//https://www.codingame.com/playgrounds/6517/react-router-tutorial
+
+class App extends React.Component {
+  constructor(props, context) {
+  super(props, context);
+    this.state = {
+      landing: true
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(){
+    this.setState({landing:false})
+  }
+  backToLanding(){
+    this.setState({landing:true})
+  }
+
+  render(){
+    return (
+      <div className="App">
+        {this.state.landing ?
+          <div>
+            <LandingPage seeninside={this.state.landing}/>
+            <Button id="landingButton" onClick={() => this.handleClick()}>Enter</Button>
+          </div>
+           : <MainPage backToLanding={()=>this.backToLanding()}/>
+         }
+      </div>
+    );
+  }
 }
 
 export default App;
