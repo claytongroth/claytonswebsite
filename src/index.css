@@ -10,7 +10,9 @@ body {
 body,html{
   height: 100%;
   width: 100%;
-  font-family: "PT Mono", "Courier New", Courier, monospace;
+  font-family: 'PT Mono', monospace;
+/*  font-family: 'PT Mono', monospace; */
+
 }
 body {
   padding-top: 70px;
@@ -82,7 +84,7 @@ code {
   top: 65%;
   left:50%;
   transform: translate(-50%,-50%);
-  font-family: "PT Mono", "Courier New", Courier, monospace;
+  font-family: 'PT Mono', monospace;
   transition-timing-function: ease-in;
   border-width: 0 !important;
 }
@@ -93,7 +95,7 @@ code {
 }
 #landing{
   color: #0a0a0a;
-  font-family: "PT Mono", "Courier New", Courier, monospace;
+  font-family: 'PT Mono', monospace;
   letter-spacing: 2px;
 }
 

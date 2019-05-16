@@ -8,16 +8,10 @@ class AboutMe extends Component {
     return (
         <div className="container-fluid">
         <div  className="row">
-            <div className="col-lg-4 col-md-4 col-sm-12">
-              <MyImage imageUrl="ATD.jpg"/>
-              <div id= "innerpic" className="col-lg-12 col-md-12 col-sm-12">
-                <MyImage imageUrl="lostface.jpg"/>
-              </div>
-            </div>
-            <div id="mybio" className="col-lg-8 col-md-7 col-sm-12">
+            <div id="mybio" className="col-lg-8 col-md-7 col-sm-8">
               <h2>About Me:</h2>
               <p> I am a developer passionate about putting my skills to work making the world a better place. In my free time I enjoy lots of climbing, listening to music, and always looking for the next challenge!</p>
-              <h5>Skills</h5>
+              <h5><b>Skills</b></h5>
               <ul>
                 <li><b>JavaScript (3+ years)</b>
                   <ul>
@@ -62,6 +56,13 @@ class AboutMe extends Component {
                 <li><b>Java (1 year)</b></li>
               </ul>
             </div>
+            <div className="col-lg-4 col-md-4 col-sm-4">
+              <MyImage imageUrl="ATD.jpg"/>
+              <div id= "innerpic" className="col-lg-12 col-md-12 col-sm-12">
+                <MyImage imageUrl="lostface.jpg"/>
+              </div>
+            </div>
+
 
           </div>
         </div>
