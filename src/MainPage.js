@@ -33,30 +33,31 @@ class MainPage extends React.Component {
               <NavDropdown.Item href="https://github.com/claytongroth">See all my projects on GitHub!</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Interactive Web Maps" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">More Coming Soon</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">More Coming Soon</NavDropdown.Item>
+              <NavDropdown.Item href=""></NavDropdown.Item>
+              <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
+              <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">More Coming Soon</NavDropdown.Item>
+              <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
             </NavDropdown>
               <NavDropdown title="Maps" id="collasible-nav-dropdown">
-                <Link to={'/usclimbing'} className="dropdown-item"> More Coming Soon </Link>
-                <NavDropdown.Item href="#action/3.2">More Coming Soon</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">More Coming Soon</NavDropdown.Item>
+                {//<Link to={'/usclimbing'} className="dropdown-item"> More Coming Soon </Link>
+                }
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="About Me" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">More Coming Soon</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">More Coming Soon</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">More Coming Soon</NavDropdown.Item>
+                <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">Contact Me</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/clayton-groth-156aaa115/">Contact Me</Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
                 More
               </Nav.Link>

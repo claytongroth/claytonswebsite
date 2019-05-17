@@ -136,7 +136,7 @@ header a{display:inline-block; width:60px;
     transform: translate(-10%,-40%);
   }
   .name{
-    font-size: 50px;
+    font-size: 40px;
   }
   .tag{
     font-size: 20px;
@@ -149,9 +149,9 @@ header a{display:inline-block; width:60px;
   }
   .socialMedia{
     padding-top: 0px;
+    padding-bottom: 5px;
   }
   br {
-  font-size: 20%;
-  margin: 0px;
+    display: none;
   }
 }
