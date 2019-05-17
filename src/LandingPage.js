@@ -28,7 +28,7 @@ class LandingPage extends React.Component {
   constructor(props, context) {
   super(props, context);
     this.state = {
-      show: false
+      show: false,
     };
   }
   componentDidMount(){
@@ -36,11 +36,13 @@ class LandingPage extends React.Component {
   }
   render() {
     return (
-      this.state.show ?
+
         <div>
+        {console.log(this.state.show)}
+
           <div>
-            <Helmet>
-                <style>{'body { background-image: url(chaos.jpg); }'}</style>
+            <Helmet defer={true}>
+                <style>{`body { background-image: ${this.state.show? 'url(chaos.jpg)' : 'url(chaosmin.jpg)'}; }`}</style>
                 <style>{'body { background-size: cover; }'}</style>
                 <style>{'body { background-repeat: no-repeat; }'}</style>
             </Helmet>
@@ -58,8 +60,7 @@ class LandingPage extends React.Component {
             </Jumbotron>
             </div>
         </div>
-        :
-        <Spinner/>
+
     );
   }
 }

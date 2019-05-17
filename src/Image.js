@@ -19,7 +19,7 @@ class MyImage extends React.Component {
   handleImageErrored() {
     this.setState({
       imageStatus: "failed to load" ,
-      laoding: false
+      loading: false
   });
   }
 
