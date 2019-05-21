@@ -141,6 +141,9 @@ header a{display:inline-block; width:60px;
   .tag{
     font-size: 20px;
   }
+  .img-fluid{
+    margin-top: 10px;
+  }
   #landingButton{
     background-color: rgba(255,255,255, .5);
     color:black;
