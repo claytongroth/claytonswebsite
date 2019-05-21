@@ -23,7 +23,6 @@ export const Instagram = () => (
   </div>
 )
 
-
 class LandingPage extends React.Component {
   constructor(props, context) {
   super(props, context);
@@ -36,11 +35,11 @@ class LandingPage extends React.Component {
   }
   render() {
     return (
-
         <div>
         {console.log(this.state.show)}
-
           <div>
+            {// TODO Makes image load nicer...!!!
+            }
             <Helmet defer={true}>
                 <style>{`body { background-image: ${this.state.show? 'url(chaos.jpg)' : 'url(chaosmin.jpg)'}; }`}</style>
                 <style>{'body { background-size: cover; }'}</style>
