@@ -35,13 +35,11 @@ class LandingPage extends React.Component {
   }
   render() {
     return (
+      this.state.show ?
         <div>
-        {console.log(this.state.show)}
           <div>
-            {// TODO Makes image load nicer...!!!
-            }
             <Helmet defer={true}>
-                <style>{`body { background-image: ${this.state.show? 'url(chaos.jpg)' : 'url(chaosmin.jpg)'}; }`}</style>
+                <style>{`body { background-image: ${this.state.show? 'url(chaos.jpg), url(chaosblur.jpg)' : 'url(sky.PNG)'}; }`}</style>
                 <style>{'body { background-size: cover; }'}</style>
                 <style>{'body { background-repeat: no-repeat; }'}</style>
             </Helmet>
@@ -58,8 +56,8 @@ class LandingPage extends React.Component {
               </div>
             </Jumbotron>
             </div>
-        </div>
-
+          </div>
+      : <Spinner/> 
     );
   }
 }
