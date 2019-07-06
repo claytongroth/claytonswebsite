@@ -19,7 +19,7 @@
     "react-scripts": "3.0.0",
     "rebass": "^3.0.0-12"
   },
-  "homepage": "https://claytonlgroth.com/",
+  "homepage": "https://claytongroth.github.io/claytonswebsite/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
