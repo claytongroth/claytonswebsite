@@ -19,7 +19,7 @@
     "react-scripts": "3.0.0",
     "rebass": "^3.0.0-12"
   },
-  "homepage": "https://claytonlgroth.com/claytonswebsite/",
+  "homepage": "https://claytonlgroth.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
