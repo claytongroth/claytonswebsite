@@ -29,10 +29,14 @@ class MainPage extends React.Component {
               <NavDropdown.Item href="https://github.com/claytongroth/Ambul8_Walkability" target="_blank">Ambul8: fullstack app with Flask</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/claytongroth/ValidationSummaryPage" target="_blank">Validation Summary Page: SP React App</NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/claytongroth/React-Redux-Chess" target="_blank">React-Redux-Chess</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/claytongroth/Fourteeners-Trip-App" target="_blank">Fourteeners-Trip-App</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/claytongroth/geo-autocomplete" target="_blank">Geolocation/AutoComplete Component</NavDropdown.Item>
+
+              
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://github.com/claytongroth">See all my projects on GitHub!</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Interactive Web Maps" id="collasible-nav-dropdown">
+            {/* <NavDropdown title="Interactive Web Maps" id="collasible-nav-dropdown">
               <NavDropdown.Item href=""></NavDropdown.Item>
               <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
               <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
@@ -46,7 +50,7 @@ class MainPage extends React.Component {
                 <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
 
               <NavDropdown title="About Me" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="">More Coming Soon</NavDropdown.Item>

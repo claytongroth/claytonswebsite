@@ -11,17 +11,22 @@ class AboutMe extends Component {
             <div id="mybio" className="col-lg-8 col-md-7 col-sm-8">
               <h2>About Me:</h2>
               <p> I am a developer passionate about putting my skills to work making the world a better place. In my free time I enjoy lots of climbing, listening to music, and always looking for the next challenge!</p>
+              <h5><b>Current Projects</b></h5>
+              <ul>
+                <li><a href="https://geovea.com" target="_blank">Geovea</a>: a travel planning app</li>
+                <li><a href="https://alcamy.org" target="_blank">Alcamy</a>: a payment app to integrate social media posts</li>
+              </ul>
               <h5><b>Skills</b></h5>
               <ul>
                 <li><b>JavaScript (3+ years)</b>
                   <ul>
                     <li>ReactJS</li>
                     <li>React-Redux</li>
+                    <li>Apollo</li>
                     <li>Full stack development (MERN)</li>
                     <li>Mongoose</li>
                     <li>Express</li>
                     <li>Mapping libraries: Leaflet, MapBox, Carto</li>
-                    <li>JQuery</li>
                     <li>Angular</li>
                   </ul>
                 </li>
@@ -40,6 +45,7 @@ class AboutMe extends Component {
                 <li><b>Databases (3+ years)</b>
                   <ul>
                     <li>MongoDB</li>
+                    <li>GraphQL </li>
                     <li>SQL</li>
                     <li>PostGres (PostGIS)</li>
                     <li>Oracle SQL Developer</li>
