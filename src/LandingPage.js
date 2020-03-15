@@ -52,7 +52,7 @@ class LandingPage extends React.Component {
                   <a href="https://www.instagram.com/claytongroth/?hl=en" target="_blank"><Instagram/></a>
                 </header>
                 <br/>
-                <p id="landing" className="tag">Front Range Developer</p>
+                <p id="landing" className="tag">Full Stack Developer</p>
               </div>
             </Jumbotron>
             </div>
